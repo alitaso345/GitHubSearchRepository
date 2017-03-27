@@ -11,7 +11,7 @@
 
 import Foundation
 
-struct Repository {
+struct Repository : JSONDecodable {
     let id: Int
     let name: String
     let full_name: String

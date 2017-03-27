@@ -6,7 +6,7 @@
 
 import Foundation
 
-struct User {
+struct User : JSONDecodable {
     let id: Int
     let login: String
 
