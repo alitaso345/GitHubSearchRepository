@@ -13,6 +13,7 @@
 		449929A31E8932C100A33754 /* JSONDecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929A21E8932C100A33754 /* JSONDecodeError.swift */; };
 		449929A51E8936D000A33754 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929A41E8936D000A33754 /* JSONDecodable.swift */; };
 		449929A71E8940BA00A33754 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929A61E8940BA00A33754 /* SearchResponse.swift */; };
+		449929A91E89466B00A33754 /* GitHubClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929A81E89466B00A33754 /* GitHubClientError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		449929A21E8932C100A33754 /* JSONDecodeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodeError.swift; sourceTree = "<group>"; };
 		449929A41E8936D000A33754 /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
 		449929A61E8940BA00A33754 /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		449929A81E89466B00A33754 /* GitHubClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubClientError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4420E0C61E881B650017936C /* Error */ = {
 			isa = PBXGroup;
 			children = (
+				449929A81E89466B00A33754 /* GitHubClientError.swift */,
 			);
 			name = Error;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				449929A71E8940BA00A33754 /* SearchResponse.swift in Sources */,
 				4499299F1E889F4500A33754 /* User.swift in Sources */,
 				4420E0BD1E88197B0017936C /* main.swift in Sources */,
+				449929A91E89466B00A33754 /* GitHubClientError.swift in Sources */,
 				449929A11E88A14800A33754 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
