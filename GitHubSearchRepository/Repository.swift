@@ -34,13 +34,13 @@ struct Repository : JSONDecodable {
             throw JSONDecodeError.missingValue(key: "full_name", actualValue: dictionary["full_name"])
         }
 
-        guard let owner = dictionary["owner"] as? User else {
+        guard let ownerObject = dictionary["owner"] else {
             throw JSONDecodeError.missingValue(key: "owner", actualValue: dictionary["owner"])
         }
 
         self.id = id
         self.name = name
         self.full_name = full_name
-        self.owner = owner
+        self.owner = try User(json: ownerObject)
     }
 }
