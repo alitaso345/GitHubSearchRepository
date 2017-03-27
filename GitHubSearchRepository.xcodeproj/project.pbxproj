@@ -17,6 +17,7 @@
 		449929AB1E89478200A33754 /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929AA1E89478200A33754 /* GitHubAPIError.swift */; };
 		449929AD1E8963EE00A33754 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929AC1E8963EE00A33754 /* GitHubRequest.swift */; };
 		449929AF1E89668E00A33754 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929AE1E89668E00A33754 /* HTTPMethod.swift */; };
+		449929B11E896AF200A33754 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929B01E896AF200A33754 /* GitHubAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		449929AA1E89478200A33754 /* GitHubAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
 		449929AC1E8963EE00A33754 /* GitHubRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
 		449929AE1E89668E00A33754 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		449929B01E896AF200A33754 /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				449929AC1E8963EE00A33754 /* GitHubRequest.swift */,
+				449929B01E896AF200A33754 /* GitHubAPI.swift */,
 				449929AE1E89668E00A33754 /* HTTPMethod.swift */,
 			);
 			name = Request;
@@ -180,6 +183,7 @@
 				449929AB1E89478200A33754 /* GitHubAPIError.swift in Sources */,
 				449929AD1E8963EE00A33754 /* GitHubRequest.swift in Sources */,
 				449929AF1E89668E00A33754 /* HTTPMethod.swift in Sources */,
+				449929B11E896AF200A33754 /* GitHubAPI.swift in Sources */,
 				449929A11E88A14800A33754 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
