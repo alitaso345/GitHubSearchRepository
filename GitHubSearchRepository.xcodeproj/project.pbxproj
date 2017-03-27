@@ -11,6 +11,7 @@
 		4499299F1E889F4500A33754 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4499299E1E889F4500A33754 /* User.swift */; };
 		449929A11E88A14800A33754 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929A01E88A14800A33754 /* Repository.swift */; };
 		449929A31E8932C100A33754 /* JSONDecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929A21E8932C100A33754 /* JSONDecodeError.swift */; };
+		449929A51E8936D000A33754 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929A41E8936D000A33754 /* JSONDecodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		4499299E1E889F4500A33754 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		449929A01E88A14800A33754 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		449929A21E8932C100A33754 /* JSONDecodeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodeError.swift; sourceTree = "<group>"; };
+		449929A41E8936D000A33754 /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				4420E0C41E881B490017936C /* Request */,
 				4420E0BC1E88197B0017936C /* main.swift */,
 				4499299E1E889F4500A33754 /* User.swift */,
+				449929A41E8936D000A33754 /* JSONDecodable.swift */,
 				449929A21E8932C100A33754 /* JSONDecodeError.swift */,
 				449929A01E88A14800A33754 /* Repository.swift */,
 			);
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				449929A31E8932C100A33754 /* JSONDecodeError.swift in Sources */,
+				449929A51E8936D000A33754 /* JSONDecodable.swift in Sources */,
 				4499299F1E889F4500A33754 /* User.swift in Sources */,
 				4420E0BD1E88197B0017936C /* main.swift in Sources */,
 				449929A11E88A14800A33754 /* Repository.swift in Sources */,
