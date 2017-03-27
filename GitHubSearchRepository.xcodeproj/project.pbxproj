@@ -16,6 +16,7 @@
 		449929A91E89466B00A33754 /* GitHubClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929A81E89466B00A33754 /* GitHubClientError.swift */; };
 		449929AB1E89478200A33754 /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929AA1E89478200A33754 /* GitHubAPIError.swift */; };
 		449929AD1E8963EE00A33754 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929AC1E8963EE00A33754 /* GitHubRequest.swift */; };
+		449929AF1E89668E00A33754 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449929AE1E89668E00A33754 /* HTTPMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		449929A81E89466B00A33754 /* GitHubClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubClientError.swift; sourceTree = "<group>"; };
 		449929AA1E89478200A33754 /* GitHubAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
 		449929AC1E8963EE00A33754 /* GitHubRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
+		449929AE1E89668E00A33754 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				449929AC1E8963EE00A33754 /* GitHubRequest.swift */,
+				449929AE1E89668E00A33754 /* HTTPMethod.swift */,
 			);
 			name = Request;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				449929A91E89466B00A33754 /* GitHubClientError.swift in Sources */,
 				449929AB1E89478200A33754 /* GitHubAPIError.swift in Sources */,
 				449929AD1E8963EE00A33754 /* GitHubRequest.swift in Sources */,
+				449929AF1E89668E00A33754 /* HTTPMethod.swift in Sources */,
 				449929A11E88A14800A33754 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

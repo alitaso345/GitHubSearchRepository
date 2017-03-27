@@ -5,6 +5,7 @@ import Foundation
 protocol GitHubRequest {
     var baseURL: URL { get }
     var path: String { get }
+    var method: HTTPMethod { get }
 }
 
 extension GitHubRequest {
